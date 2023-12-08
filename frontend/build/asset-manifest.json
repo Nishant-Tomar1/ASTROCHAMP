@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/AstroChamp/static/css/main.87f49fab.css",
+    "main.js": "/AstroChamp/static/js/main.f1f264da.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/AstroChamp/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/astrobg4edit2.png": "/AstroChamp/static/media/astrobg4edit2.4df8272d035fb856fb27.png",
+    "static/media/HomepageastroCopy.jpg": "/AstroChamp/static/media/HomepageastroCopy.1f2d56ee0e9539ff6116.jpg",
+    "index.html": "/AstroChamp/index.html",
+    "main.87f49fab.css.map": "/AstroChamp/static/css/main.87f49fab.css.map",
+    "main.f1f264da.js.map": "/AstroChamp/static/js/main.f1f264da.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/AstroChamp/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87f49fab.css",
+    "static/js/main.f1f264da.js"
+  ]
+}
