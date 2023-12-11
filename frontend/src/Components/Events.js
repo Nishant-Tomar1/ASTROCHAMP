@@ -21,7 +21,7 @@ function Events() {
 }
 
   return (
-    <motion.div variants={variant} animate='entry' exit='exit'>
+    <motion.div variants={variant} animate='entry' exit='exit' className='flex flex-col items-center justify-center'>
 
 <section class="text-gray-600 body-font ">
   <div class="container mx-auto flex flex-col px-2 pt-20 lg:pt-24 justify-center items-center">
@@ -66,7 +66,22 @@ function Events() {
   
 </section>
 
+      {/* Footer */}
+  <div className={Styles.FooterDiv} style={{color:'gray !important'}}>
+
+<div> Astro_Champ </div>
+<div className={Styles.FooterFont}> Dive into the cosmic adventure at AstroChamp 2024! Explore the universe through quizzes, art, science, and more. <br ></br> Join us in this celestial celebration!"</div>
+
+
+<div className={Styles.FooterEnd}> 
+  <div>© Copyright 2024 | All rights Reserved </div>
+  <div> Designed and developed by <a href="https://www.github.com/DEV-NISHANT-HERE" style={{textDecoration:'none',color:'purple'}}>Nishant Tomar</a> (team Astro_Champ) </div>
+</div>
+
+</div>
+
     </motion.div>
+
   )
 }
 

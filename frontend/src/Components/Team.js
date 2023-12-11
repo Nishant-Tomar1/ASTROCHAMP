@@ -321,6 +321,8 @@ function Team() {
 
     </div>
 
+    
+
 </section>
     </motion.div>
   )
