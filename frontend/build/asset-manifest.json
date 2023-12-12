@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AstroChamp/static/css/main.87f49fab.css",
-    "main.js": "/AstroChamp/static/js/main.f1f264da.js",
-    "static/js/787.9e9f4ffd.chunk.js": "/AstroChamp/static/js/787.9e9f4ffd.chunk.js",
-    "static/media/astrobg4edit2.png": "/AstroChamp/static/media/astrobg4edit2.4df8272d035fb856fb27.png",
-    "static/media/HomepageastroCopy.jpg": "/AstroChamp/static/media/HomepageastroCopy.1f2d56ee0e9539ff6116.jpg",
-    "index.html": "/AstroChamp/index.html",
-    "main.87f49fab.css.map": "/AstroChamp/static/css/main.87f49fab.css.map",
-    "main.f1f264da.js.map": "/AstroChamp/static/js/main.f1f264da.js.map",
-    "787.9e9f4ffd.chunk.js.map": "/AstroChamp/static/js/787.9e9f4ffd.chunk.js.map"
+    "main.css": "/AstroChamp_Frontend/static/css/main.18cd58e3.css",
+    "main.js": "/AstroChamp_Frontend/static/js/main.5d4dd1b1.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/AstroChamp_Frontend/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/astrobg4edit2.png": "/AstroChamp_Frontend/static/media/astrobg4edit2.4df8272d035fb856fb27.png",
+    "static/media/HomepageastroCopy.jpg": "/AstroChamp_Frontend/static/media/HomepageastroCopy.1f2d56ee0e9539ff6116.jpg",
+    "index.html": "/AstroChamp_Frontend/index.html",
+    "main.18cd58e3.css.map": "/AstroChamp_Frontend/static/css/main.18cd58e3.css.map",
+    "main.5d4dd1b1.js.map": "/AstroChamp_Frontend/static/js/main.5d4dd1b1.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/AstroChamp_Frontend/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87f49fab.css",
-    "static/js/main.f1f264da.js"
+    "static/css/main.18cd58e3.css",
+    "static/js/main.5d4dd1b1.js"
   ]
 }
