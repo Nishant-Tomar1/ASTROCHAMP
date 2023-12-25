@@ -1,4 +1,4 @@
-const Note = require("../models/note");
+import {Note} from "../models/note.js"
 
 //Homepage message
 const homepageMessage = async (req, res) => {
@@ -31,8 +31,7 @@ const createNote =  async (req, res) =>{
     res.json({note});
 };
 
-
-module.exports = {
+export {
     homepageMessage,
     fetchNotes,
     createNote,

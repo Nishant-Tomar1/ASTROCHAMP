@@ -1,37 +1,42 @@
-//Load env variables
-if (process.env.NODE_ENV != 'production'){
-    require('dotenv').config();
-}
-
 //Import dependencies
-const express = require('express');
-const cors = require('cors');
-const connectToDb = require("./config/connectToDb");
-const notesController = require("./controllers/notesController");
+import dotenv  from 'dotenv';
+import express, { json } from 'express';
+import cors from 'cors';
+import connectToDb from "./config/connectToDb.js";
+import { homepageMessage, createNote, fetchNotes } from "./controllers/notesController.js";
+
+
+//Load ENV Variables
+dotenv.config({
+    path : ".env"
+})
+
 
 //Create an express app
 const app = express();
 
+
 //Configure express app
-app.use(express.json());
+app.use(json());
 app.use(cors());
 
+
 //Connect to Database
-connectToDb();
+connectToDb()
+.then(()=>{
+    app.listen(process.env.PORT || 4000,()=>{
+        console.log(`App listening on port ${process.env.PORT}`)
+    })
+})
+.catch((err)=> {
+    console.log("MongoDB Connection Failed!!! : ",err)
+})
+
 
 // Routing 
+app.get('/', homepageMessage);
 
-app.get('/', notesController.homepageMessage);
+app.post("/notes", createNote);
 
-app.post("/notes", notesController.createNote);
+app.get("/notes", fetchNotes); 
 
-app.get("/notes", notesController.fetchNotes);
-
-// app.get("/notes/:id",notesController.fetchNote);
-
-// app.put('/notes/:id',notesController.updateNote);
-
-// app.delete('/notes/:id', notesController.deleteNote);
-
-// Start our server
-app.listen(process.env.PORT);
