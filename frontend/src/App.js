@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router
 
 function App() {
   return (
-    <Router basename={"/"}>
+    <Router basename={"/astrochamp"}>
       <Routefunction/>
     </Router>
   )
