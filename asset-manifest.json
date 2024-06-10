@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/astrochamp/static/css/main.5902931c.css",
-    "main.js": "/astrochamp/static/js/main.8f7b9139.js",
+    "main.js": "/astrochamp/static/js/main.7a28bb9a.js",
     "static/media/Homepagebg.jpg": "/astrochamp/static/media/Homepagebg.46d7147c01bfc219cf7f.jpg",
     "static/media/StarbornSagas.png": "/astrochamp/static/media/StarbornSagas.4124bba71da305f03a12.png",
     "static/media/abhivyakti.png": "/astrochamp/static/media/abhivyakti.fe40bfaf016cc9811900.png",
@@ -33,10 +33,10 @@
     "static/media/Astrologo.png": "/astrochamp/static/media/Astrologo.48c795d417845a3809d8.png",
     "index.html": "/astrochamp/index.html",
     "main.5902931c.css.map": "/astrochamp/static/css/main.5902931c.css.map",
-    "main.8f7b9139.js.map": "/astrochamp/static/js/main.8f7b9139.js.map"
+    "main.7a28bb9a.js.map": "/astrochamp/static/js/main.7a28bb9a.js.map"
   },
   "entrypoints": [
     "static/css/main.5902931c.css",
-    "static/js/main.8f7b9139.js"
+    "static/js/main.7a28bb9a.js"
   ]
 }
